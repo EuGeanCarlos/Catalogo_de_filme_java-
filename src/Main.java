@@ -23,6 +23,10 @@ public class Main{
                     ano de lançamento:
                 """ + anoDoLancamento;
         System.out.println(sinopse);
+        // conversao com cast
+        int classificacao;
+        classificacao = (int) (media / 2);
+        System.out.println(classificacao + " Estrelas");
 
     }
 
